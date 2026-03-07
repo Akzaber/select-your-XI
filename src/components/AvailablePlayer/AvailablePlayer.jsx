@@ -3,19 +3,21 @@ import { RxAvatar } from "react-icons/rx";
 import { CiFlag1 } from "react-icons/ci";
 
 
-const AvailablePlayer = ({ player, setAvailableBalance, availableBalance }) => {
+const AvailablePlayer = ({ player, setAvailableBalance, availableBalance, setPurchasedPlayers, purchasedPlayers }) => {
     const { player_name, player_img, player_country, player_category, rating, batting_style, price } = player;
     const [isSelected, setSelected] = useState(false);
-    const handleAvailableBalance = (balance) => {
+    const handleAvailableBalance = (player) => {
         const covertToNumber = 
-        parseInt(balance.split("USD").join("").split(",").join(""));
+        parseInt(player.price.split("USD").join("").split(",").join(""));
         if(availableBalance<covertToNumber){
             alert("Bhai tor to taka nai");
             return;
         }
         setSelected(true);
         setAvailableBalance(availableBalance - covertToNumber);
+        setPurchasedPlayers([...purchasedPlayers, player]);
     }
+
     return (
         <div>
             <div className="card bg-base-100 shadow hover:shadow-lg p-4">
@@ -51,7 +53,7 @@ const AvailablePlayer = ({ player, setAvailableBalance, availableBalance }) => {
                     </div>
                     <div className='flex items-center justify-between'>
                         <p className='font-semibold'>price: ${price}</p>
-                        <button onClick={()=>handleAvailableBalance(price)} className={`btn btn-sm ${isSelected && 'btn-disabled'}`}>{isSelected? 'Selected' : "Choose player"}</button>
+                        <button onClick={()=>handleAvailableBalance(player)} className={`btn btn-sm ${isSelected && 'btn-disabled'}`}>{isSelected? 'Selected' : "Choose player"}</button>
                     </div>
                 </div>
             </div>
