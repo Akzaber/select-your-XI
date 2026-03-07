@@ -1,0 +1,113 @@
+[
+    {
+      "id": 1,
+      "player_name": "Virat Kohli",
+      "player_img": "https://i.ibb.co.com/1G5wxSZx/virat-kohli.jpg",
+      "player_country": "India",
+      "player_category": "Batsman",
+      "rating": 95,
+      "batting_style": "Right-hand bat",
+      "price": "20,00000 USD"
+    },
+    {
+      "id": 2,
+      "player_name": "Babar Azam",
+      "player_img": "https://i.ibb.co.com/0jRwd7b1/babr-azam.jpg",
+      "player_country": "Pakistan",
+      "player_category": "Batsman",
+      "rating": 93,
+      "batting_style": "Right-hand bat",
+      "price": "22,00000 USD"
+    },
+    {
+      "id": 3,
+      "player_name": "Joe Root",
+      "player_img": "https://i.ibb.co.com/Q7QBp9Cx/joe-root.jpg",
+      "player_country": "England",
+      "player_category": "Batsman",
+      "rating": 92,
+      "batting_style": "Right-hand bat",
+      "price": "21,00000 USD"
+    },
+    {
+      "id": 4,
+      "player_name": "David Warner",
+      "player_img": "https://i.ibb.co.com/gM3Y0Mg8/david-warner.jpg",
+      "player_country": "Australia",
+      "player_category": "Batsman",
+      "rating": 90,
+      "batting_style": "Left-hand bat",
+      "price": "25,00000 USD"
+    },
+    {
+      "id": 5,
+      "player_name": "Shakib Al Hasan",
+      "player_img": "https://i.ibb.co.com/Z1zf2NLj/sakib-al-hasan.jpg",
+      "player_country": "Bangladesh",
+      "player_category": "All-rounder",
+      "rating": 91,
+      "batting_style": "Left-hand bat",
+      "price": "15,00000 USD"
+    },
+    {
+      "id": 6,
+      "player_name": "Kane Williamson",
+      "player_img": "https://i.ibb.co.com/BHmKqP7h/kane-williamson.jpg",
+      "player_country": "New Zealand",
+      "player_category": "Batsman",
+      "rating": 94,
+      "batting_style": "Right-hand bat",
+      "price": "25,00000 USD"
+    },
+    {
+      "id": 7,
+      "player_name": "Ben Stokes",
+      "player_img": "https://i.ibb.co.com/DPJvKL7y/ben-stokes.jpg",
+      "player_country": "England",
+      "player_category": "All-rounder",
+      "rating": 89,
+      "batting_style": "Left-hand bat",
+      "price": "36,00000 USD"
+    },
+    {
+      "id": 8,
+      "player_name": "Rashid Khan",
+      "player_img": "https://i.ibb.co.com/TjCr00n/rashid-khan.jpg",
+      "player_country": "Afghanistan",
+      "player_category": "All-rounder",
+      "rating": 88,
+      "batting_style": "Right-hand bat",
+      "price": "12,0000 USD"
+    },
+    {
+      "id": 9,
+      "player_name": "Marnus Labuschagne",
+      "player_img": "https://i.ibb.co.com/4w2ZL4hY/marnus-labuschagne.jpg",
+      "player_country": "Australia",
+      "player_category": "Batsman",
+      "rating": 89,
+      "batting_style": "Right-hand bat",
+      "price": "14,00000 USD"
+    },
+    {
+      "id": 10,
+      "player_name": "Jos Buttler",
+      "player_img": "https://i.ibb.co.com/ZpwsmDFR/jos-buttler.jpg",
+      "player_country": "England",
+      "player_category": "Wicketkeeper Batsman",
+      "rating": 90,
+      "batting_style": "Right-hand bat",
+      "price": "19,00000 USD"
+    },
+    {
+      "id": 11,
+      "player_name": "Quinton de Kock",
+      "player_img": "https://i.ibb.co.com/WNs0Kt1T/quinton-de-kock.jpg",
+      "player_country": "South Africa",
+      "player_category": "Wicketkeeper Batsman",
+      "rating": 88,
+      "batting_style": "Left-hand bat",
+      "price": "16,00000 USD"
+    }
+  ]
+  
