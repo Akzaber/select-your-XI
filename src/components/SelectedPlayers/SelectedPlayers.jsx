@@ -1,4 +1,3 @@
-import React from 'react';
 import SelectedPlayer from '../SelectedPlayer/SelectedPlayer';
 
 const SelectedPlayers = ({purchasedPlayers}) => {

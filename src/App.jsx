@@ -22,7 +22,7 @@ function App() {
                 <h1 className='text-3xl font-bold'>Available Players {`${toggle? '' : `${purchasedPlayers.length}/12`}`}</h1>
                 <div>
                     <button onClick={() => setToggle(true)} className={`px-4 py-2 hover:cursor-pointer rounded-l-xl border border-r-0 font-semibold ${toggle === true? 'bg-[#E7FE29]' : ''}`}>Available</button>
-                    <button onClick={() => setToggle(false)} className={`px-4 py-2 hover:cursor-pointer border border-l-0 rounded-r-xl font-semibold ${toggle === false? 'bg-[#E7FE29]' : ''}`}>Selected <span>({toggle? purchasedPlayers.length : purchasedPlayers.length})</span></button>
+                    <button onClick={() => setToggle(false)} className={`px-4 py-2 hover:cursor-pointer border border-l-0 rounded-r-xl font-semibold ${toggle === false? 'bg-[#E7FE29]' : ''}`}>Selected <span>({purchasedPlayers.length})</span></button>
                 </div>
           </div>
         {

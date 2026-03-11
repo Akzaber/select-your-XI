@@ -12,7 +12,7 @@ const SelectedPlayer = ({ player }) => {
                     <p className='text-slate-500'>{player.batting_style}</p>
                 </div>
             </div>
-            <button><MdDelete className='h-[40px] w-[40px] text-red-600'></MdDelete></button>
+            <button className='cursor-pointer'><MdDelete className='h-[40px] w-[40px] text-red-600'></MdDelete></button>
         </div>
     );
 };

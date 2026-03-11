@@ -13,7 +13,7 @@ const Navbar = ({availableBalance}) => {
                 </div>
                 <div className="flex space-x-2">
                     <span>{availableBalance}</span>
-                    <span className='flex items-center'>Coins<RiCoinsFill className='text-2xl text-yellow-500'></RiCoinsFill></span>
+                    <span className='flex items-center'>USD<RiCoinsFill className='text-2xl text-yellow-500'></RiCoinsFill></span>
                 </div>
             </div>
         </div>
