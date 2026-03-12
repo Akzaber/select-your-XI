@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { RxAvatar } from "react-icons/rx";
 import { CiFlag1 } from "react-icons/ci";
+import { toast } from 'react-toastify';
 
 
 const AvailablePlayer = ({ player, setAvailableBalance, availableBalance, setPurchasedPlayers, purchasedPlayers }) => {
@@ -10,7 +11,11 @@ const AvailablePlayer = ({ player, setAvailableBalance, availableBalance, setPur
         const covertToNumber = 
         parseInt(player.price.split("USD").join("").split(",").join(""));
         if(availableBalance<covertToNumber){
-            alert("Bhai tor to taka nai");
+            toast("You have not Available Balance");
+            return;
+        }
+        if(purchasedPlayers.length === 6){
+            toast("You already selected six players");
             return;
         }
         setSelected(true);
