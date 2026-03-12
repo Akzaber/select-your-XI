@@ -21,6 +21,7 @@ const AvailablePlayer = ({ player, setAvailableBalance, availableBalance, setPur
         setSelected(true);
         setAvailableBalance(availableBalance - covertToNumber);
         setPurchasedPlayers([...purchasedPlayers, player]);
+        toast("Player purchased")
     }
 
     return (
